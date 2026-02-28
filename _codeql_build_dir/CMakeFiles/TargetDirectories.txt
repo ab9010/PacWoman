@@ -1,0 +1,3 @@
+/home/runner/work/PacWoman/PacWoman/_codeql_build_dir/CMakeFiles/PacWoman.dir
+/home/runner/work/PacWoman/PacWoman/_codeql_build_dir/CMakeFiles/edit_cache.dir
+/home/runner/work/PacWoman/PacWoman/_codeql_build_dir/CMakeFiles/rebuild_cache.dir
