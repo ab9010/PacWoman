@@ -147,6 +147,6 @@ Ideas for further development:
 
 ---
 
-## Licence
+## License
 
 MIT — see [LICENSE](LICENSE).

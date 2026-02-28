@@ -4,7 +4,7 @@ namespace pacwoman {
 
 // Window settings
 constexpr unsigned int WINDOW_WIDTH  = 672;   // 28 tiles * 24 pixels
-constexpr unsigned int WINDOW_HEIGHT = 744;   // 31 tiles * 24 pixels
+constexpr unsigned int WINDOW_HEIGHT = 774;   // 31 tiles * 24 pixels + 30 for HUD
 constexpr unsigned int TILE_SIZE     = 24;
 constexpr unsigned int FRAMERATE     = 60;
 

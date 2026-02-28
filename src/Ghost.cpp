@@ -109,9 +109,11 @@ sf::Vector2f Ghost::chooseDirection(const Maze& maze,
     float bestDist = std::numeric_limits<float>::max();
 
     for (const auto& d : dirs) {
-        // Ghosts cannot reverse direction.
-        if (d.x == -m_direction.x && d.y == -m_direction.y)
-            continue;
+        // Ghosts cannot reverse direction (skip when already moving).
+        if (m_direction.x != 0.f || m_direction.y != 0.f) {
+            if (d.x == -m_direction.x && d.y == -m_direction.y)
+                continue;
+        }
 
         sf::Vector2f testPos = m_position + d * static_cast<float>(TILE_SIZE);
         if (maze.isWall(testPos.x, testPos.y, m_size.x, m_size.y))
